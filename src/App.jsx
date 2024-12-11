@@ -1,16 +1,14 @@
 import React from "react";
-import Playlist from "./components/Playlist"; 
-import Navbar from './components/Navbar';
-import Artist from "./components/Artist";
+import Navbar from "./components/Navbar";
+import MusicLibrary from "./components/MusicLibrary";
 
-import "./assets/style.css"
+import "./assets/style.css";
 
 const App = () => {
   return (
     <div className="App">
       <Navbar />
-      <Artist />
-      <Playlist /> 
+      <MusicLibrary />
     </div>
   );
 };
