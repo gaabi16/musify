@@ -1,0 +1,30 @@
+.artistCard {
+    cursor: pointer;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .artistCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .artistCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .artistCard h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #333;
+  }
+  

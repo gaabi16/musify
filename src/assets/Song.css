@@ -1,0 +1,52 @@
+.songsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 80px; /* Allow space for the fixed button at the bottom */
+}
+
+.song {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.song img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.song h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.song p {
+    margin: 0;
+    color: #555;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+}
+
+.loadingMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    color: white;
+    z-index: 10;
+}

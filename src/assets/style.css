@@ -1,0 +1,14 @@
+h1 {
+    margin: 20px;
+    color: white;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #83accd;
+    color: rgba(255, 255, 255, 0.87);
+}
